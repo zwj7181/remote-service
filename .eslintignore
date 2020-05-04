@@ -1,0 +1,8 @@
+/scripts
+/config
+/mock
+/build
+/node_modules
+/dist
+/public
+/tests
