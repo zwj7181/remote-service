@@ -15,6 +15,15 @@ module.exports = {
           })
         ]
       }
+    },
+    less: {
+      modifyVars: {
+        'font-size-sm': '12px',
+        'font-size-md': '14px',
+        'font-size-lg': '16px',
+        'goods-action-button-danger-color': '#7232dd',
+        'goods-action-button-warning-color': '#3eaf7c'
+      }
     }
   },
   chainWebpack: config => {
